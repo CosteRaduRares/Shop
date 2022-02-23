@@ -1,0 +1,147 @@
+body{
+    width: 1360px;
+}
+/*Navigation_bar_top*/
+.container_top_navbar{
+    float: top;
+    text-align: center;
+    width: 1519px;
+    height: 75px;
+    line-height: 75px;
+    background-color: #131313;
+}
+a{
+    padding: 32px;
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: rgb(0 0 0 / 8%);
+}
+#logo{
+    display: inline;
+    left: 50px;
+}
+#placeholder{
+    width: 300px;
+    height: 21px;
+}
+.imgbanner{
+    width:1519px;
+    height: 650px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*@media screen and (max-width: 600px) {*/
+/*    .column {*/
+/*        width: 100%;*/
+/*        display: block;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*}*/
+.card {
+    position: sticky;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    left: 50px;
+    bottom: 2px;
+}
+.aboutTXT {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    position: fixed;
+}
+.Register{
+    text-align: center;
+    padding-top: 100px;
+}
+ input[type=text], input[type=password], input[type=email] {
+     width:20%;
+     padding: 8px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border: none;
+     background-color: #f1f1f1;
+}
+ .submit{
+     background-color: grey;
+     border: none;
+     margin: 5px 22px;
+     color: white;
+     cursor: pointer;
+     opacity: 0.9;
+     width: 9%;
+     height: 38px;
+ }
+.submit:hover {
+    opacity: 1;
+}
+.container_signin{
+    text-align: center;
+}
+.table_cart{
+    text-align: center;
+    width: 100%;
+}
+.title_cart{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+    width: 1530px;
+}
+.h3{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+.container{
+    padding: 20px;
+    text-align: left;
+    width: 1px;
+
+}
+.col{
+    text-align:left;
+    padding: 15px;
+    position: center;
+}
+.product{
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.w3-card-4{
+    float: right;
+    width: 100%;
+}
+.sign_in{
+    padding: 0px;
+}
+#log_test{
+    color: grey;
+}
+#remember{
+    color: #efefef;
+}
+#navBar{
+    color: white;
+}
